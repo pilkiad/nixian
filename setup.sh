@@ -27,6 +27,8 @@ cp menu ~/.fluxbox/
 cp startup ~/.fluxbox/
 cp .Xresources ~/
 xrdb -merge ~/X.resources
+cp config.py ~/.config/qutebrowser
 
 sudo apt update
 sudo apt upgrade -y
+sudo apt autoremove -y
