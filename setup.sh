@@ -15,6 +15,7 @@ sudo apt install pasystray -y # sound icon
 sudo apt install unclutter -y # hide mouse cursor
 sudo apt install tldr -y # short command examples for the terminal
 sudo apt install thunar
+sudo apt install mpv # video viewer for webcam view
 
 # Fuck...
 sudo apt install snapd
