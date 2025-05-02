@@ -17,8 +17,12 @@ sudo apt install tldr -y # short command examples for the terminal
 sudo apt install thunar
 
 # Fuck...
-sudo apt install snap
+sudo apt install snapd
+sudo snap install snapd
 sudo snap install typst
+sudo snap install steam
+sudo snap install localsend
+sudo snap refresh
 
 # Copy configuration files over
 mkdir ~/.config/nvim
