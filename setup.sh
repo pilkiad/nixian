@@ -14,6 +14,7 @@ sudo apt install network-manager-gnome -y # network icon
 sudo apt install pasystray -y # sound icon
 sudo apt install unclutter -y # hide mouse cursor
 sudo apt install tldr -y # short command examples for the terminal
+sudo apt install thunar
 
 # Copy configuration files over
 mkdir ~/.config/nvim
