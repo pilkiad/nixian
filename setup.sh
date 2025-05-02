@@ -1,6 +1,7 @@
 sudo apt update
 
 # Install applications
+sudo apt install xterm
 sudo apt install fluxbox
 sudo apt install qutebrowser
 sudo apt install git
