@@ -16,6 +16,10 @@ sudo apt install unclutter -y # hide mouse cursor
 sudo apt install tldr -y # short command examples for the terminal
 sudo apt install thunar
 
+# Fuck...
+sudo apt install snap
+sudo snap install typst
+
 # Copy configuration files over
 mkdir ~/.config/nvim
 cp init.vim ~/.config/nvim
