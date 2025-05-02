@@ -6,12 +6,11 @@ sudo apt install qutebrowser
 sudo apt install git
 sudo apt install python3
 sudo apt install neovim
-sudo apt install arandr
-sudo apt install network-manager-gnome
-sudo apt install pasystray
-sudo apt install cbatticon
-sudo apt install unclutter
-sudo apt install tldr
+sudo apt install arandr # manage desktops
+sudo apt install network-manager-gnome # network icon
+sudo apt install pasystray # sound icon
+sudo apt install unclutter # hide mouse cursor
+sudo apt install tldr # short command examples for the terminal
 
 # Copy configuration files over
 mkdir ~/.config/nvim
