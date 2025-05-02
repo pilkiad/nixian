@@ -5,6 +5,7 @@ sudo apt install xterm -y
 sudo apt install fluxbox -y
 sudo apt install qutebrowser -y
 sudo apt install git -y
+sudo apt install git-cola -y
 sudo apt install python3 -y
 sudo apt install neovim -y
 sudo apt install obs-studio -y
