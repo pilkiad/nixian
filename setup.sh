@@ -7,6 +7,7 @@ sudo apt install qutebrowser -y
 sudo apt install git -y
 sudo apt install python3 -y
 sudo apt install neovim -y
+sudo apt install obs-studio -y
 sudo apt install arandr -y # manage desktops
 sudo apt install network-manager-gnome -y # network icon
 sudo apt install pasystray -y # sound icon
