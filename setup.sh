@@ -4,6 +4,7 @@ sudo apt update
 sudo apt install fluxbox
 sudo apt install qutebrowser
 sudo apt install git
+sudo apt install gitkraken # make git bearable
 sudo apt install python3
 sudo apt install neovim
 sudo apt install arandr # manage desktops
