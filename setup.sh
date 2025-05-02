@@ -13,6 +13,7 @@ sudo apt install arandr -y # manage desktops
 sudo apt install network-manager-gnome -y # network icon
 sudo apt install pasystray -y # sound icon
 sudo apt install unclutter -y # hide mouse cursor
+sudo apt install cbatticon # battery icon
 sudo apt install tldr -y # short command examples for the terminal
 sudo apt install thunar
 sudo apt install mpv # video viewer for webcam view
