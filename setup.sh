@@ -1,18 +1,18 @@
 sudo apt update
 
 # Install applications
-sudo apt install xterm
-sudo apt install fluxbox
-sudo apt install qutebrowser
-sudo apt install git
-sudo apt install gitkraken # make git bearable
-sudo apt install python3
-sudo apt install neovim
-sudo apt install arandr # manage desktops
-sudo apt install network-manager-gnome # network icon
-sudo apt install pasystray # sound icon
-sudo apt install unclutter # hide mouse cursor
-sudo apt install tldr # short command examples for the terminal
+sudo apt install xterm -y
+sudo apt install fluxbox -y
+sudo apt install qutebrowser -y
+sudo apt install git -y
+sudo apt install gitkraken -y # make git bearable
+sudo apt install python3 -y
+sudo apt install neovim -y
+sudo apt install arandr -y # manage desktops
+sudo apt install network-manager-gnome -y # network icon
+sudo apt install pasystray -y # sound icon
+sudo apt install unclutter -y # hide mouse cursor
+sudo apt install tldr -y # short command examples for the terminal
 
 # Copy configuration files over
 mkdir ~/.config/nvim
