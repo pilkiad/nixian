@@ -5,7 +5,6 @@ sudo apt install xterm -y
 sudo apt install fluxbox -y
 sudo apt install qutebrowser -y
 sudo apt install git -y
-sudo apt install gitkraken -y # make git bearable
 sudo apt install python3 -y
 sudo apt install neovim -y
 sudo apt install arandr -y # manage desktops
@@ -19,6 +18,8 @@ mkdir ~/.config/nvim
 cp init.vim ~/.config/nvim
 cp menu ~/.fluxbox/
 cp startup ~/.fluxbox/
+cp .Xresources ~/
+xrdb -merge ~/X.resources
 
 sudo apt update
 sudo apt upgrade -y
