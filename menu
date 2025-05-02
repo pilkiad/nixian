@@ -1,0 +1,5 @@
+[begin] (fluxbox)
+[exec] (Configure monitors) {arandr}
+[exec] (Sound settings) {pavucontrol}
+[exec] (Wifi Applet) {nm-applet &}
+[end]
