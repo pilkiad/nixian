@@ -1,4 +1,5 @@
 [begin] (fluxbox)
+[exec] (XFCE Settings) {xfce4-settings-manager}
 [exec] (Configure monitors) {arandr}
 [exec] (Sound settings) {pavucontrol}
 [exec] (Wifi Applet) {nm-applet &}
