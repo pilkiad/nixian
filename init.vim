@@ -10,5 +10,6 @@ set cursorcolumn
 set cursorline
 set colorcolumn=80
 set title
+set termguicolors
 syntax on
 colorscheme desert
