@@ -35,13 +35,13 @@ sudo snap refresh
 
 # Copy configuration files over
 mkdir ~/.config/nvim
-cp init.vim ~/.config/nvim
-cp menu ~/.fluxbox/
-cp startup ~/.fluxbox/
-cp .Xresources ~/
+cp configs/nvim/init.vim ~/.config/nvim
+cp configs/fluxbox/menu ~/.fluxbox/
+cp configs/fluxbox/startup ~/.fluxbox/
+cp configs/xterm/.Xresources ~/
 xrdb -merge ~/X.resources
 mkdir ~/.config/qutebrowser
-cp config.py ~/.config/qutebrowser/
+cp configs/qutebrowser/config.py ~/.config/qutebrowser/
 
 # === Installers ===
 sudo rm -rf installers/
