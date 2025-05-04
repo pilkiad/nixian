@@ -9,7 +9,7 @@ quickly so that if I break things again its not hard to pick up where I left of.
 ## Setting up the OS
 
 1. Install debian stable
-2. Pick xfce and gnome as the initial window managers because we need some of their dependencies sadly
+2. Pick xfce and gnome as the initial window managers because we need some of their dependencies sadly (although xfce4 will be installed automatically later)
 
 ## Add user to sudoers file
 
