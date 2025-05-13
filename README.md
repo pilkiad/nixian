@@ -9,7 +9,12 @@ quickly so that if I break things again its not hard to pick up where I left of.
 ## Setting up the OS
 
 1. Install debian stable
-2. Pick xfce and gnome as the initial window managers because we need some of their dependencies sadly (although xfce4 will be installed automatically later)
+2. Pick xfce and gnome as the initial window managers because we need some of
+    their dependencies sadly (although xfce4 will be installed automatically
+    later)
+3. Immediatly upgrade to debian testing (multiple applications including my wifi
+    driver seem to work much better here, unfortunately we do loose the
+    immediate ability to install minecraft)
 
 ## Add user to sudoers file
 
@@ -17,6 +22,10 @@ quickly so that if I break things again its not hard to pick up where I left of.
 su
 sudo usermod -aG sudo username
 ```
+
+## Clone the repo
+
+Run `bash setup.sh`
 
 ## Startpage
 
