@@ -1,4 +1,6 @@
 sudo apt update
+sudo apt upgrade -y
+sudo apt autoremove -y
 
 # === Applications ===
 
@@ -34,6 +36,8 @@ sudo apt install kmag -y
 sudo apt install newsboat -y
 sudo apt install tmux -y
 sudo apt install rofi -y
+sudo apt install libfuse2 -y
+sudo apt install i3lock -y
 
 # Fuck...
 sudo apt install snapd
@@ -80,6 +84,8 @@ sudo dpkg -i discord.deb
 # Easyroam
 wget https://www.easyroam.de/debapp/easyroam.deb
 sudo dpkg -i easyroam.deb
+wget https://autoupdate.termius.com/linux/Termius.deb
+sudo dpkg -i Termius.deb
 #Rofi themes
 git clone https://github.com/lr-tech/rofi-themes-collection.git
 cd rofi-themes-collection
