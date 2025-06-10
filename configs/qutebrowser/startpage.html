@@ -1,99 +1,60 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
 <head>
-  <title>startpage/</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Startseite</title>
+    <style>
+        body {
+            background-color: #1a1a1a; /* Dunkler Hintergrund */
+            color: #e0e0e0; /* Helle Textfarbe */
+            font-family: 'Cascadia Code', 'Fira Code', 'Roboto Mono', monospace; /* Monospace Font */
+            line-height: 1.5;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: flex-start; /* Links ausgerichtet */
+        }
 
-  <style>
-    html {
-      align-items: center;
-      display: flex;
-      height: 100%;
-      justify-content: center;
-      margin: 0;
-      background-color: black;
-      color: gray;
-      font-family: monospace;
-    }
+        pre {
+            white-space: pre-wrap; /* Behält Leerzeichen und Zeilenumbrüche bei, ermöglicht aber Umbruch */
+            word-wrap: break-word; /* Bricht Wörter, wenn sie zu lang sind */
+            max-width: 80ch; /* Maximale Breite von 80 Zeichen */
+            margin: 0;
+            padding: 0;
+        }
 
-    body {
-      display: flex;
-      margin: 1em;
-      padding: 1em;
-    }
+        a {
+            color: #8be9fd; /* Helle Farbe für Links (passend zum Dark Mode) */
+            text-decoration: none; /* Keine Unterstreichung */
+        }
 
-    h1 {
-      font-size: 1.3em;
-      grid-column: 1 / -1;
-      margin: 0;
-      text-align: center;
-    }
-
-    a {
-      font-size: 1.3em;
-      color: inherit;
-      text-decoration: none;
-    }
-
-    a:focus,
-    a:hover {
-      color: white;
-      background-color: purple;
-    }
-
-    nav {
-      display: grid;
-      grid-row-gap: 1em;
-      grid-template-columns: 1fr 1fr;
-      margin: 0 1em;
-      min-width: 24em;
-      padding: 1em 0;
-    }
-
-    ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      white-space: nowrap;
-      text-align: center;
-    }
-  </style>
+        a:hover {
+            text-decoration: underline; /* Unterstreichung beim Hover */
+        }
+    </style>
 </head>
-
 <body>
-  <nav>
+    <pre>
+ ================================= STARTPAGE/ =================================
 
-    <h1>startpage/</h1>
+Welcome to the startpage!
+Found below are a list of useful links for daily access.
 
-    <ul>
-      <li><a href="https://hs-bremen.de">hs-bremen.de</a></li>
-      <li><a href="https://chatgpt.com">chatgpt.com</a></li>
-    </ul>
+Office             Code      Studies      Entertainment
+------             ----      -------      -------------
 
-    <ul>
-      <li><a href="https://github.com">github.com</a></li>
-      <li><a href="https://gitlab.com">gitlab.com</a></li>
-    </ul>
+<a href="https://account.proton.me">Proton</a>             <a href="https://www.github.com">GitHub</a>    <a href="https://hs-bremen.de">HS-Bremen</a>    <a href="https://youtube.com">YouTube</a>
+<a href="https://mail.proton.me">Proton Mail</a>        <a href="https://www.gitlab.com">GitLab</a>    <a href="https://aulis.hs-bremen.de">AULIS</a>        <a href="https://twitch.tv">Twitch</a>
+<a href="https://calendar.proton.me">Proton Calendar</a>              <a href="https://webmail.hs-bremen.de">WebMail</a>
+<a href="https://drive.proton.me">Proton Drive</a>                 <a href="https://campino.hs-bremen.de">Campino</a>
+                             <a href="https://stdplan.fk4.hs-bremen.de">Plan</a>
 
-    <ul>
-      <li><a href="https://vault.bitwarden.com/#/login">bitwarden.com</a></li>
-    </ul>
+Breathing in, I am aware
+Breathing out, I am present
 
-    <ul>
-      <li><a href="https://youtube.com">youtube.com</a></li>
-      <li><a href="https://twitch.tv">twitch.tv</a></li>
-      <li><a href="https://discord.com/channels/@me">discord.com</a></li>
-    </ul>
+        Arian - <a href="https://ad301.org">ad301.org</a>
 
-    <ul>
-      <li><a href="https://mail.proton.me/u/0/inbox">proton.me</a></li>
-      <li><a href="https://open.spotify.com">spotify.com</a></li>
-      <li><a href="https://notion.so">notion.so</a></li>
-    </ul>
-
-    <ul>
-      <li><a href="https://onedrive.live.com">onedrive.live.com</a></li>
-    </ul>
-  </nav>
-
+    </pre>
 </body>
 </html>

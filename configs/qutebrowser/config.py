@@ -2118,7 +2118,7 @@ config.load_autoconfig(True)
 ## Page to open if :open -t/-b/-w is used without URL. Use `about:blank`
 ## for a blank page.
 ## Type: FuzzyUrl
-c.url.default_page = 'file:///home/arian/Documents/Code/GitHub/nixian/configs/qutebrowser/startpage.html'
+c.url.default_page = 'file:///home/arian/Documents/code/git_hub/nixian/configs/qutebrowser/startpage.html'
 
 ## URL segments where `:navigate increment/decrement` will search for a
 ## number.
@@ -2159,7 +2159,7 @@ c.url.default_page = 'file:///home/arian/Documents/Code/GitHub/nixian/configs/qu
 
 ## Page(s) to open at the start.
 ## Type: List of FuzzyUrl, or FuzzyUrl
-c.url.start_pages = ['file:///home/arian/Documents/Code/GitHub/nixian/configs/qutebrowser/startpage.html']
+c.url.start_pages = ['file:///home/arian/Documents/code/git_hub/nixian/configs/qutebrowser/startpage.html']
 
 ## URL parameters to strip when yanking a URL.
 ## Type: List of String
