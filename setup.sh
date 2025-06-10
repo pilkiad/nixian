@@ -38,6 +38,8 @@ sudo apt install tmux -y
 sudo apt install rofi -y
 sudo apt install libfuse2 -y
 sudo apt install i3lock -y
+sudo apt install lxappearance -y
+sudo apt install scrot -y
 
 # Fuck...
 sudo apt install snapd
