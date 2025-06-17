@@ -67,7 +67,8 @@ xrdb -merge ~/X.resources
 mkdir ~/.config/qutebrowser
 cp configs/qutebrowser/config.py ~/.config/qutebrowser/
 cp configs/bash/.bashrc ~/
-fbsetbg -f ./imgs/debian_ascii_art.png
+fbsetbg -f ./imgs/ghibli.png
+cp configs/cortile/config.toml ~/.config/cortile
 
 # NVIM Install Vim-Plug
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
@@ -92,6 +93,12 @@ sudo dpkg -i Termius.deb
 git clone https://github.com/lr-tech/rofi-themes-collection.git
 cd rofi-themes-collection
 mkdir -p ~/.local/share/rofi/themes/
+cd ..
+# Cortile
+wget -qO- $(wget -qO- https://api.github.com/repos/leukipp/cortile/releases/latest | \
+jq -r '.assets[] | select(.name | contains ("linux_amd64.tar.gz")) | .browser_download_url') | \
+tar -xvz
+cp cortile.service ~/.config/systemd/user/
 
 sudo apt update
 sudo apt upgrade -y

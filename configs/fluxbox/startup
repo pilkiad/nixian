@@ -12,5 +12,6 @@ nm-applet &
 pasystray &
 cbatticon &
 unclutter -idle 2 &
+/home/arian/Documents/code/git_hub/nixian/installers/cortile &
 
 exec fluxbox
